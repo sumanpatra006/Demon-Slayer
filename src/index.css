@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: anime;
+    src: url('/font/anime.otf');
+  }
+}
+
+html,
+body {
+  font-family: "anime";
+  height: 100dvh;
+  width: 100dvw;
+}
