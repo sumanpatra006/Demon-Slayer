@@ -1,10 +1,10 @@
 import './App.css'
-import Hero from './components/hero'
+import Hero from './components/Hero'
 function App() {
 
   return (
     <>
-      <main>
+      <main className='relative min-h-screen w-screen overflow-x-hidden'>
         <Hero/>
       </main>
     </>
