@@ -14,7 +14,7 @@ body {
 @layer base {
   @font-face {
     font-family: anime;
-    src: url('/font/anime.otf') format('opentype');
+    src: url('/fonts/anime.otf') format('opentype');
   }
   @font-face {
     font-family: "circular-web";
@@ -38,7 +38,7 @@ body {
 
   @font-face {
     font-family: "zentry";
-    src: url("/fonts/zentry-regular.woff2") format("woff2");
+    src: url("/font/zentry-regular.woff2") format("woff2");
   }
 }
 
@@ -89,7 +89,7 @@ body {
   }
 
   .animated-word {
-    @apply special-font font-zentry font-black opacity-0;
+    @apply special-font font-black opacity-0;
     transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
     transform-origin: 50% 50% -150px !important;
     will-change: opacity, transform;
