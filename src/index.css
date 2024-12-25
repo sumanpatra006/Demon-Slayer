@@ -38,7 +38,12 @@ body {
 
   @font-face {
     font-family: "zentry";
-    src: url("/font/zentry-regular.woff2") format("woff2");
+    src: url("/fonts/zentry-regular.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "Sleepy-Moody";
+    src: url("/fonts/Sleepy-Moody.otf") format('opentype');
   }
 }
 
@@ -104,7 +109,7 @@ body {
   }
 
   .bento-title {
-    @apply uppercase md:text-6xl text-4xl font-black font-zentry;
+    @apply uppercase md:text-6xl text-4xl font-black tracking-wider;
   }
 
   .story-img-container {
