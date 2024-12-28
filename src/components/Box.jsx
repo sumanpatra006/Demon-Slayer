@@ -4,11 +4,11 @@ import './Box.css'
 const Box = () => {
   return (
     <div className='relative inset-0 h-full w-full'>
-    <div className="h-screen w-full bg-[#323234] flex-col items-center justify-center">
-        <p className='text-center pt-16 bento-title !capitalize !text-[4.5rem] !font-Sleepy-Moody text-blue-50'>
+    <div className="h-screen w-full bg-[#D2D1D3] flex-col items-center justify-center">
+        <p className='text-center pt-16 bento-title !capitalize !text-[4.5rem] !font-Sleepy-Moody '>
           I'm Inside The Box 🙇‍♀️
           </p>
-          <p className='text-center pt-4 font-general !text-[1.1rem] text-white'>
+          <p className='text-center pt-4 font-general !text-[1.1rem] text-[#1D1D1D]'>
           Hover to open the Box 📦
           </p>
 
@@ -17,9 +17,10 @@ const Box = () => {
         id='wrapper'>
           {/* Image background */}
           <img
-            src="/images/nezuko.jpg"
+            src="/images/nezuko.webp"
             alt="minion"
             className="absolute w-full h-full object-cover"
+            loading='lazy'
           />
           {/* Door with hover rotation */}
           <div className="absolute h-full w-full bg-[#785138] flex justify-evenly items-center transform transition-transform duration-700 origin-right border-l border-black"

@@ -100,9 +100,9 @@ export const AnimatedTestimonials = ({
               duration: 0.2,
               ease: "easeInOut",
             }}>
-            <h3 className="text-[2rem] font-bold dark:text-white text-black">
+            <p className="text-[2rem] font-bold dark:text-white text-black">
               {testimonials[active].name}
-            </h3>
+            </p>
             <p className="text-sm text-gray-500 dark:text-neutral-400">
               {testimonials[active].designation}
             </p>
@@ -134,13 +134,13 @@ export const AnimatedTestimonials = ({
           <div className="flex gap-4 pt-12 md:pt-0">
             <button
               onClick={handlePrev}
-              className="h-10 w-10 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button border border-gray-300 dark:border-neutral-600">
+              className="h-10 w-10 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button border border-gray-300 dark:border-neutral-600 " aria-label="Left button">
               <FaArrowLeftLong
                 className="h-5 w-5 text-black dark:text-neutral-400 group-hover/button:rotate-12 transition-transform duration-300" />
             </button>
             <button
               onClick={handleNext}
-              className="h-10 w-10 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button border border-gray-300 dark:border-neutral-600">
+              className="h-10 w-10 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button border border-gray-300 dark:border-neutral-600" aria-label="right button">
               <FaArrowRightLong
                 className="h-5 w-5 text-black dark:text-neutral-400 group-hover/button:-rotate-12 transition-transform duration-300" />
             </button>
