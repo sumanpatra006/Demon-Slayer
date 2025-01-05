@@ -4,6 +4,7 @@ import Box from './components/Box'
 import Hero from './components/Hero'
 import Kizuki from './components/Kizuki'
 import Hashira from './components/Hashira'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Box/>
         <Kizuki/>
         <Hashira/>
+        <Footer/>
       </main>
     </>
   )

@@ -20,7 +20,6 @@ const Box = () => {
             src="/images/nezuko.webp"
             alt="minion"
             className="absolute w-full h-full object-cover"
-            loading='lazy'
           />
           {/* Door with hover rotation */}
           <div className="absolute h-full w-full bg-[#785138] flex justify-evenly items-center transform transition-transform duration-700 origin-right border-l border-black"
