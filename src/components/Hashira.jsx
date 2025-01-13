@@ -63,7 +63,7 @@ export const Card = ({
   return (
     <div
       ref={container}
-      className="h-screen flex items-center justify-center sticky top-0"
+      className="h-screen flex items-center justify-center sticky top-0 pb-10"
     >
       <motion.div
         style={{
@@ -71,13 +71,13 @@ export const Card = ({
           scale,
           top: `calc(-5vh + ${i * 15}px)`,
         }}
-        className={`flex flex-col relative -top-[25%] h-[550px] w-[70%] rounded-lg p-10 origin-top`}
+        className={`flex flex-col relative -top-[25%] h-[500px] w-[70%] rounded-lg p-10 origin-top`}
       >
-        <h2 className="text-[2.5rem]  text-black text-center font-zentry tracking-widest">{name}</h2>
+        <h2 className="text-[2.4rem]  text-black text-center font-zentry tracking-widest">{name}</h2>
         <div className={`flex h-full mt-5 gap-10`}>
           <div className={`flex flex-col w-[40%] top-[7%] relative text-black gap-4`}>
-            <p className="text-[1.8rem] font-Sleepy-Moody font-semibold">{designation}</p>
-            <p className="text-[1.3rem] font-circular-web">{quote}</p>
+            <p className="text-[1.7rem] font-Sleepy-Moody font-semibold">{designation}</p>
+            <p className="text-[1.2rem] font-circular-web">{quote}</p>
           </div>
 
           <div
