@@ -160,4 +160,65 @@ export const hashiras = [
   },
 ];
 
+
+export const Developers = [
+  {
+    id: 1,
+    name: "Dharmendra Mahanta",
+    designation: "Software Engineer",
+    image:
+      "/images/dharmendra.png",
+    githubUrl: "https://github.com/dharmendra-007"
+  },
+  {
+    id: 2,
+    name: "K Suman Patra",
+    designation: "Product Manager",
+    image:
+      "/images/suman.png",
+    githubUrl: "https://github.com/sumanpatra006"
+  },
+  {
+    id: 3,
+    name: "Gyanaranjan Patra",
+    designation: "Data Scientist",
+    image:
+      "/images/gyana.jpg",
+    githubUrl: "https://github.com/Gyannnnn"
+  }
+];
+
+export const demonSlayerQuotes = [
+  {
+    id: 1,
+    statement: "I don't like this breathing style thing, learning the Sun Breathing right away because it's OP. Instead, I would like to call it 'Tanjiro Style' so that it becomes legendary.",
+    author: "Tanjiro Kamado",
+    designation: "Reluctant Hero"
+  },
+  {
+    id: 2,
+    statement: "I don't like this Upper Moon thing, slaying them all right away because revenge. Instead, I would like to call it 'Justice Breathing' so that demons can tremble.",
+    author: "Giyu Tomioka",
+    designation: "Water Pillar"
+  },
+  {
+    id: 3,
+    statement: "I don’t like this demon thing, slaying them right away because humanity. Instead, I would like to call it 'Nezuko’s Protection' because family comes first.",
+    author: "Tanjiro Kamado",
+    designation: "Brother Extraordinaire"
+  },
+  {
+    id: 4,
+    statement: "I don’t like this weak swordsman thing, going all Lightning Breathing right away because flashiness matters. Instead, I would like to call it 'Thunder God Mode' so that everyone knows my strength.",
+    author: "Zenitsu Agatsuma",
+    designation: "Thunder Master"
+  },
+  {
+    id: 5,
+    statement: "I don’t like this Upper Moon One thing, challenging Kokushibo right away because ego. Instead, I would like to call it 'Hashira Supremacy' because I’m the Flame Pillar.",
+    author: "Kyojuro Rengoku",
+    designation: "Flame Enthusiast"
+  }
+];
+
 export default kizukis

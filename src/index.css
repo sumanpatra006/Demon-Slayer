@@ -46,6 +46,11 @@ body {
     font-family: "Sleepy-Moody";
     src: url("/fonts/Sleepy-Moody.otf") format('opentype');
   }
+
+  @font-face {
+    font-family: "Pixel-Army";
+    src: url("/fonts/PixelArmy.ttf") format('truetype');
+  }
 }
 
 @layer utilities {
