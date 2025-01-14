@@ -22,6 +22,10 @@ export const AnimatedTooltip = ({
     x.set(event.nativeEvent.offsetX - halfWidth); // set the x value, which is then used in transform and rotate
   };
 
+  const handleClick = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (<>
     {items.map((item, idx) => (
       <div
@@ -63,11 +67,12 @@ export const AnimatedTooltip = ({
         </AnimatePresence>
         <img
           onMouseMove={handleMouseMove}
+          onClick={() => handleClick(item.githubUrl)}
           height={100}
           width={100}
           src={item.image}
           alt={item.name}
-          className="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500" />
+          className="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500 cursor-pointer" />
       </div>
     ))}
   </>);
