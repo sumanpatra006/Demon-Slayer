@@ -4,7 +4,7 @@ import "./Box.css";
 const Box = () => {
   return (
     <div className="relative inset-0 h-full w-full">
-      <div className="h-screen w-full bg-[#D2D1D3] mb-3 flex-col items-center justify-center">
+      <div className="h-screen w-full bg-[#D2D1D3] flex-col items-center justify-center">
         <p className="text-center pt-16 bento-title !capitalize !text-[4.5rem] !font-Sleepy-Moody ">
           I'm Inside The Box 🙇‍♀️
         </p>
