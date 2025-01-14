@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import Kizuki from "./components/Kizuki";
 import Hashira from "./components/Hashira";
 import { Developer } from "./components/Developer";
-// import { Footer } from "./components/Footer";
+import { Footer } from "./components/Footer";
 // import BlobCursor from "./components/BlobCursor";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Kizuki />
         <Hashira />
         <Developer/>
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </>
   );
