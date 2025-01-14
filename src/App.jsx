@@ -4,8 +4,8 @@ import Box from "./components/Box";
 import Hero from "./components/Hero";
 import Kizuki from "./components/Kizuki";
 import Hashira from "./components/Hashira";
-import { Footer } from "./components/Footer";
-import BlobCursor from "./components/BlobCursor";
+// import { Footer } from "./components/Footer";
+// import BlobCursor from "./components/BlobCursor";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Box />
         <Kizuki />
         <Hashira />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </>
   );
