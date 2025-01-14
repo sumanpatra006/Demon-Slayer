@@ -10,7 +10,8 @@ export default {
         "robert-medium": ["robert-medium", "sans-serif"],
         "robert-regular": ["robert-regular", "sans-serif"],
         'anime' : ['anime','sanf-serif'],
-        'Sleepy-Moody' : ['Sleepy-Moody','sanf-serif']
+        'Sleepy-Moody' : ['Sleepy-Moody','sanf-serif'],
+        'Pixel-Army' : ['Pixel-Army','sanf-serif'],
       },
       colors: {
         blue: {
