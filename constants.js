@@ -185,7 +185,23 @@ export const Developers = [
     image:
       "/images/gyana.jpg",
     githubUrl: "https://github.com/Gyannnnn"
-  }
+  },
+  {
+    id: 4,
+    name: "Jay prakash Tanty",
+    designation: "Data Scientist",
+    image:
+      "/images/jayprakash.jpg",
+    githubUrl: "https://github.com/Jay-Prakash-Tanty"
+  },
+  {
+    id: 5,
+    name: "Pratyush Kumar",
+    designation: "Data Scientist",
+    image:
+      "/images/pratush.jpg",
+    githubUrl: "https://github.com/PratyushK9"
+  },
 ];
 
 export const demonSlayerQuotes = [

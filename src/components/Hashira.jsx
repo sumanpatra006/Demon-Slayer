@@ -71,17 +71,17 @@ export const Card = ({
           scale,
           top: `calc(-5vh + ${i * 15}px)`,
         }}
-        className={`flex flex-col relative -top-[25%] h-[500px] w-[70%] rounded-lg p-10 origin-top`}
+        className={`flex flex-col relative -top-[25%] h-[600px] sm:h-[550px] w-[90%] sm:w-[85%] md:[80%] lg:w-[70%] rounded-lg p-10 origin-top`}
       >
-        <h2 className="text-[2.4rem]  text-black text-center font-zentry tracking-widest">{name}</h2>
-        <div className={`flex h-full mt-5 gap-10`}>
-          <div className={`flex flex-col w-[40%] top-[7%] relative text-black gap-4`}>
-            <p className="text-[1.7rem] font-Sleepy-Moody font-semibold">{designation}</p>
-            <p className="text-[1.2rem] font-circular-web">{quote}</p>
+        <h2 className="text-3xl sm:text-[2.4rem] text-black text-center font-zentry tracking-[0.2rem] sm:tracking-widest">{name}</h2>
+        <div className={`flex flex-col sm:flex-row h-full sm:mt-5 gap-10`}>
+          <div className={`flex flex-col w-full sm:w-[40%] top-[7%] relative text-black gap-4`}>
+            <p className="text-[1.5rem] sm:text-[1.7rem] font-Sleepy-Moody font-semibold">{designation}</p>
+            <p className="text-lg sm:text-[1.2rem] font-circular-web">{quote}</p>
           </div>
 
           <div
-            className={`relative w-[60%] h-[80%] rounded-lg overflow-hidden`}
+            className={`relative w-full sm:w-[60%] h-[50%] sm:h-[80%] rounded-lg overflow-hidden `}
           >
             <motion.div
               className={`w-full h-full`}

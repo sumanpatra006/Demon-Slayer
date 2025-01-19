@@ -33,7 +33,7 @@ export const AnimatedTestimonials = ({
   };
   return (
     (<div
-      className="max-w-80 md:max-w-5xl mx-auto antialiased font-sans px- md:px-8 lg:px-12 py-10">
+      className="max-w-72 md:max-w-5xl mx-auto antialiased font-sans px- md:px-8 lg:px-12 py-10">
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-20">
         <div>
           <div className="relative h-96 w-full">
