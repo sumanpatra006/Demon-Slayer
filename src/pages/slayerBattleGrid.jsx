@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import ReturnGameSectionButton from "../components/returnGameSectionButton";
+import ReturnHomeSectionButton from "../components/returnHomeSectionButton";
 
 function SlayerBattleGrid() {
   const [gameData, setGameData] = useState(Array(9).fill(""));
@@ -185,7 +187,12 @@ function SlayerBattleGrid() {
   };
 
   return (
+    <>
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800 text-white">
+    <div className="flex justify-between items-start w-[80%] h-[10vh] sm:h-[15vh]">
+      <ReturnHomeSectionButton />
+      <ReturnGameSectionButton />
+    </div>
       <h1 className="text-3xl sm:text-4xl font-bold mb-10 flex items-center justify-center">
         {title}
       </h1>
@@ -241,6 +248,7 @@ function SlayerBattleGrid() {
         Reset
       </button>
     </div>
+    </>
   );
 }
 
