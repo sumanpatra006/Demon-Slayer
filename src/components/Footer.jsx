@@ -2,14 +2,14 @@ import React from "react";
 
 export function Footer() {
   return (
-    <div className="flex flex-col md:flex-row justify-center w-full h-[auto] bg-slate-900 py-4">
+    <div className="flex flex-col md:flex-row justify-center w-full h-[auto] bg-slate-900 py-2 sm:py-4">
       <div className="flex flex-col md:flex-row justify-between items-center w-[96%] max-w-screen-xl mx-auto">
         {/* Logo Section */}
         <span className="flex items-center justify-center md:justify-start w-full md:w-[32%] md:px-4 lg:px-0 mb-2 md:mb-0 ">
           <img
             src="/images/Enigma.png"
             alt="enigma logo"
-            className="h-10 md:h-12 lg:h-14 max-h-16"
+            className="hidden sm:block sm:h-10 md:h-12 lg:h-14 max-h-16"
           />
         </span>
 
