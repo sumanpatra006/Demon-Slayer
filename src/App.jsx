@@ -2,7 +2,6 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home.jsx";
 import Games from "./pages/games.jsx";
-import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import SlayerBattleGrid from "./pages/SlayerBattleGrid.jsx";
 
 function App() {

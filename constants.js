@@ -1,5 +1,3 @@
-import { desc } from "framer-motion/client";
-
 const kizukis = [
   {
     quote:
