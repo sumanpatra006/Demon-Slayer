@@ -9,7 +9,7 @@ const ReturnHomeSectionButton = () => {
   }
 
   return (
-    <button className='p-4 bg-orange-400 font-circular-web font-semibold text-xs sm:text-base rounded-3xl text-black'
+    <button className='p-3 bg-orange-400 font-circular-web font-semibold text-xs sm:text-base rounded-3xl text-black'
         onClick={handleClick}
       >
       Return Home</button>

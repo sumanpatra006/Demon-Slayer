@@ -243,6 +243,12 @@ export const games = [
     title: "Slayer Battle Grid",
     description: "A modified version of Tic Tac Toe where you play as the demon slayer Tanjiro and battle against the demon Muzan.",
     src: "/images/slayerBattleGrid.png",
+  },
+  {
+    id: 2,
+    title: "Wings on Yaiba",
+    description: "In Wings on Yaiba, navigate a fiery demon lair, dodging molten obstacles and enemies. Use your wings to survive and escape the infernal chaos.",
+    src: "/images/wingsonyaiba.png",
   }
 ]
 
