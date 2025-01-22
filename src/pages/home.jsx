@@ -6,6 +6,7 @@ import Kizuki from "../components/Kizuki";
 import Hashira from "../components/Hashira";
 import { Developer } from "../components/Developer";
 import { Footer } from "../components/Footer";
+import TogameSectionButton from '../components/togameSectionButton';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Box />
         <Kizuki />
         <Hashira />
+        <TogameSectionButton/>
         <Developer />
         <Footer />
       </main>

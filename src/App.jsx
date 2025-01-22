@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home.jsx";
 import Games from "./pages/games.jsx";
 import SlayerBattleGrid from "./pages/slayerBattleGrid.jsx";
+import WingnoYaiba from "./pages/WingnoYaiba.jsx";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
             <Route index element={<Games />} />
             <Route path="1" element ={
               <SlayerBattleGrid/>
+              }/>
+            <Route path="2" element ={
+              <WingnoYaiba/>
               }/>
           </Route>
         </Route>
